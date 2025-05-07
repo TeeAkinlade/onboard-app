@@ -19,7 +19,7 @@ export default function LoginPage() {
         </div>
         
         <AuthForm type="sign-in" />
-        <p className="text-center mt-3">
+        <p className="text-center mt-3 pb-3">
           Don&apos;t have an account? <Link href="/sign-up" className="text-[#50C2C9]">Sign Up</Link>
         </p>
       </div>

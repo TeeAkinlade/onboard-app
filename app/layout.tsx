@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased lg:max-w-sm mx-auto lg:shadow-lg lg:shadow-[#00000040] lg:h-screen`}
+        className={`antialiased lg:max-w-sm mx-auto lg:shadow-lg lg:shadow-[#00000040] h-dvh `}
       >
         <ClientNavbar />
         {children}
